@@ -10,6 +10,7 @@ export default function App() {
     setCounter(count => count + editcount);
   };
  
+  
   //decrease counter
   const decrease = () => {
     setCounter(count => count - editcount);
